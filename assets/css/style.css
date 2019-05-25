@@ -53,6 +53,7 @@ div.navbar-header h1{
 div.container{
     background-color: white;
     height: 500px;
+    width: 800px;
     padding-left: 30px;
     padding-right: 30px;
 }
@@ -60,8 +61,8 @@ div.container{
 hr {
     border: none;
     height: 2px;
-    color: #333; /* old IE */
-    background-color: #333; /* Modern Browsers */
+    color: #777777; /* old IE */
+    background-color: #777777; /* Modern Browsers */
     z-index: 10000;
 }
 
@@ -69,6 +70,14 @@ body{
     background-image: url(../images/Background.png);
     height: 100%;
     background-size: cover;
+    color: #777777
+}
+
+#myImage{
+  height: 150px;
+  width: 150px;
+  margin: 20px;
+  transform: rotate(90deg);
 }
 
   /* .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
