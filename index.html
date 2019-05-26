@@ -4,7 +4,7 @@
   <title>Bootstrap Example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
@@ -13,17 +13,19 @@
 
 <body>
     <!-- Nav bar -->
-    <nav class="navbar navbar-default">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <h1>Cullan Aoki</h1>
-        </div>
-        <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">About</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="contact.html">Contact</a></li>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <p id="headerName">Cullan Aoki</p>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
         </ul>
-    </div>
     </nav>
 
     <div class="container">
@@ -38,7 +40,7 @@
         <div class="row">
             <div class="row">                
                 <div class="col-md-12">
-                    <img id="myImage" src="assets/images/Shaveice.jpeg" class="pull-left" alt="..." >
+                    <img id="myImage" src="assets/images/Shaveice.jpeg" class="rounded float-left" alt="..." >
                     <p>
                         Lorem ipsum dolor amet kitsch ugh tofu vaporware pour-over direct trade succulents. Master cleanse green juice synth kickstarter salvia direct trade. Waistcoat everyday carry master cleanse gastropub swag cold-pressed next level tattooed affogato PBR&B retro mlkshk bicycle rights adaptogen. Flannel authentic hell of, selvage pour-over kogi pitchfork bitters. Ugh try-hard hoodie, roof party sartorial tacos cred schlitz you probably haven't heard of them crucifix. Kale chips iceland blue bottle, adaptogen tote bag fanny pack semiotics migas neutra copper mug pitchfork cold-pressed glossier vape air plant.
                     </p>
@@ -51,6 +53,9 @@
             </div>
         </div>
     </div>
-
+      
+    <nav class="navbar fixed-bottom navbar-light bg-dark">
+        <p class="custom-center">Copyright &copy</p>
+    </nav>
 </body>
 </html>
