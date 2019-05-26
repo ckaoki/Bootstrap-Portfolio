@@ -10,8 +10,7 @@
 div.container{
     background-color: white;
     min-width: 300px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 20px;
     margin-top: 100px;
     margin-bottom: 50px;
 }
@@ -51,6 +50,15 @@ body{
 /* custom class to center text */
 .custom-center {
   margin: auto;
+}
+
+/* message input */
+#userMessage{
+  height: 20vh;
+}
+
+.pMargin{
+  margin: 20px;
 }
 
   /* 
